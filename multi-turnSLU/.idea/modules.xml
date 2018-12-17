@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:/MT-SLU/.idea/MT-SLU.iml" filepath="F:/MT-SLU/.idea/MT-SLU.iml" />
+      <module fileurl="file://F:/data_process/.idea/data_process.iml" filepath="F:/data_process/.idea/data_process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/multi-turn SLU.iml" filepath="$PROJECT_DIR$/.idea/multi-turn SLU.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+Car I need to go to a grocery store : which one is it the closest to me ?|||O O O O O O O B-poi_type I-poi_type O O O O O O B-distance O O O|||navigate
+We 're 4 miles away from Trader Joes and there is no traffic on our way
+Would you give me the address and enter directions to the location ?|||B-poi_type O O O O O O O O O O O O|||navigate
+The address is 408 University Ave ; setting directions now .
+Thanks !|||B-distance O|||thanks
+You are welcome
+
+directions to the grocery store|||O O O B-poi_type I-poi_type|||navigate
+Navigating you to Safeway .
+Make sure to give me the fastest route please .|||O O O O O O B-distance I-distance O O|||navigate
+There is no traffic on our way and you should be able to reach in just few minutes
+OK , what is the address and how close is it ?|||O O O O O O O O O O O O|||navigate
+Safeway is 4 miles away at 452 Arcadia Pl . Do you need me to set GPS ?
+Yes , please , and thank you !|||O O O O O O O O|||thanks
+I set the GPS for you , drive carefully !
+I 'd like a chinese restaurant|||O O O B-poi_type I-poi_type I-poi_type|||navigate
+We 're 7 miles away from Panda Express but there is a car collision nearby
+Is that the only chinese spot you have listed ?|||O O O O B-poi_type O O O O O|||navigate
+Panda Express is the only one currently listed .
+give me the address and the fastest route there with no traffic|||O O O O O O B-distance O O O O B-traffic_info|||navigate
+Panda Express is at 842 Arrowhead Way .
+Then let 's go there , thank you car !|||O O O O O O O O O O|||thanks
+You 're welcome !
+
+car is it going to snow today|||O O O O O B-weather_attribute B-date|||weather
+what city do you want the forecast for ?
+Chicago .|||B-location O|||weather
+It is not snowing in Chicago today .
+Great , thanks .|||O O O O|||thanks
+You 're very welcome . Glad I could help .
+find me the nearest grocery store|||O O O B-distance B-poi_type I-poi_type|||navigate
+The nearest one is Sigona Farmers Market , it 's 2 miles away
+Give me the address .|||O O O O O|||navigate
+638 Amherst St , you 're welcome
+Thanks set GPS for there .|||O O O O O O|||thanks
+You 're welcome and GPS set .
