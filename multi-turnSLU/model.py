@@ -107,22 +107,22 @@ class SDEN(nn.Module):
         O_1 = self.dropout(O_1)
 
         #history gate
-        intent_att, _ =  self.attention(O_1)
-
-
-        H = torch.cat([H[0], H[1]], 1)
-        H = torch.unsqueeze(H, dim=1)
-
-        H = H.repeat(1,intent_att.size(1),1)
-
-        CON= torch.cat([H, intent_att], -1)
-        g1 = self.context_encoder1(CON)
-        _, g2 = self.session_encoder(g1)
-
-        cell_state1 = weight.new_zeros(g2.size())
-
-
-        O_2, (S_2, _) = self.decoder_2(O_1, (g2, cell_state1))
+        # intent_att, _ =  self.attention(O_1)
+        #
+        #
+        # H = torch.cat([H[0], H[1]], 1)
+        # H = torch.unsqueeze(H, dim=1)
+        #
+        # H = H.repeat(1,intent_att.size(1),1)
+        #
+        # CON= torch.cat([H, intent_att], -1)
+        # g1 = self.context_encoder1(CON)
+        # _, g2 = self.session_encoder(g1)
+        #
+        # cell_state1 = weight.new_zeros(g2.size())
+        #
+        #
+        # O_2, (S_2, _) = self.decoder_2(O_1, (g2, cell_state1))
         O_2,(S_2,_) = self.decoder_2(O_1,(H,cell_state))
         O_2 = self.dropout(O_2)
         S = torch.cat([s for s in S_2],1)
@@ -133,7 +133,7 @@ class SDEN(nn.Module):
 
         H = H.repeat(1,intent_att.size(1),1)
 
-        CON= torch.cat([H, intent_att], -1)
+        CON = torch.cat([H, intent_att], -1)
         g1 = self.context_encoder1(CON)
         g = g1.sum(2)
 
