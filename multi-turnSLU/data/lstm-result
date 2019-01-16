@@ -1,0 +1,800 @@
+***************************** no H *****************************
+[0/5] [0/679] mean_loss : 4.563
+[0/5] [100/679] mean_loss : 2.011
+[0/5] [200/679] mean_loss : 0.792
+[0/5] [300/679] mean_loss : 0.574
+[0/5] [400/679] mean_loss : 0.505
+[0/5] [500/679] mean_loss : 0.442
+[0/5] [600/679] mean_loss : 0.406
+0.9542019693153194
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+   B-agenda      0.000     0.000     0.000        36
+   I-agenda      0.421     0.148     0.219        54
+     B-date      0.738     0.818     0.776       911
+     I-date      0.499     0.834     0.624       549
+ B-distance      0.645     0.653     0.649       487
+ I-distance      0.560     0.305     0.395       167
+    B-event      0.754     0.812     0.782       517
+    I-event      0.796     0.916     0.852       367
+ B-location      0.871     0.899     0.885       572
+ I-location      0.871     0.864     0.867       280
+    B-party      0.912     0.775     0.838       187
+    I-party      0.500     0.235     0.320        17
+ B-poi_type      0.701     0.777     0.737       534
+ I-poi_type      0.606     0.867     0.713       301
+     B-room      1.000     0.257     0.409        35
+     I-room      1.000     0.545     0.706        33
+     B-time      0.591     0.341     0.432       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.800     0.405     0.538       237
+I-traffic_info      0.760     0.710     0.734       272
+B-weather_attribute      0.973     0.857     0.911       546
+I-weather_attribute      0.954     0.775     0.855        80
+
+avg / total      0.739     0.754     0.733      6416
+
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+精度:0.92385342
+召回:0.92530627
+f1-score:0.92242464
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+[1/5] [0/679] mean_loss : 0.409
+[1/5] [100/679] mean_loss : 0.373
+[1/5] [200/679] mean_loss : 0.349
+[1/5] [300/679] mean_loss : 0.357
+[1/5] [400/679] mean_loss : 0.340
+[1/5] [500/679] mean_loss : 0.340
+[1/5] [600/679] mean_loss : 0.357
+0.9562628806961301
+             precision    recall  f1-score   support
+
+   B-agenda      0.000     0.000     0.000        36
+   I-agenda      0.025     0.148     0.043        54
+     B-date      0.786     0.816     0.801       911
+     I-date      0.499     0.878     0.637       549
+ B-distance      0.632     0.595     0.613       487
+ I-distance      0.906     0.287     0.436       167
+    B-event      0.768     0.787     0.777       517
+    I-event      0.792     0.880     0.834       367
+ B-location      0.876     0.916     0.896       572
+ I-location      0.873     0.882     0.877       280
+    B-party      0.913     0.786     0.845       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.744     0.706     0.724       534
+ I-poi_type      0.688     0.741     0.714       301
+     B-room      1.000     0.257     0.409        35
+     I-room      1.000     0.545     0.706        33
+     B-time      0.597     0.418     0.492       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.693     0.447     0.544       237
+I-traffic_info      0.773     0.662     0.713       272
+B-weather_attribute      0.970     0.888     0.927       546
+I-weather_attribute      0.958     0.863     0.908        80
+
+avg / total      0.756     0.746     0.738      6416
+
+精度:0.92400798
+召回:0.92667764
+f1-score:0.92314427
+[2/5] [0/679] mean_loss : 0.221
+[2/5] [100/679] mean_loss : 0.332
+[2/5] [200/679] mean_loss : 0.343
+[2/5] [300/679] mean_loss : 0.324
+[2/5] [400/679] mean_loss : 0.353
+[2/5] [500/679] mean_loss : 0.328
+[2/5] [600/679] mean_loss : 0.344
+0.9562628806961301
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.056     0.105        36
+   I-agenda      0.023     0.167     0.040        54
+     B-date      0.798     0.817     0.807       911
+     I-date      0.505     0.898     0.646       549
+ B-distance      0.626     0.618     0.622       487
+ I-distance      0.750     0.341     0.469       167
+    B-event      0.787     0.787     0.787       517
+    I-event      0.799     0.866     0.831       367
+ B-location      0.887     0.916     0.901       572
+ I-location      0.867     0.882     0.874       280
+    B-party      0.914     0.797     0.851       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.749     0.702     0.725       534
+ I-poi_type      0.692     0.738     0.714       301
+     B-room      1.000     0.257     0.409        35
+     I-room      1.000     0.545     0.706        33
+     B-time      0.595     0.414     0.488       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.725     0.422     0.533       237
+I-traffic_info      0.760     0.688     0.722       272
+B-weather_attribute      0.970     0.888     0.927       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.763     0.750     0.743      6416
+
+精度:0.92522910
+召回:0.92726553
+f1-score:0.92403353
+[3/5] [0/679] mean_loss : 0.307
+[3/5] [100/679] mean_loss : 0.320
+[3/5] [200/679] mean_loss : 0.341
+[3/5] [300/679] mean_loss : 0.341
+[3/5] [400/679] mean_loss : 0.333
+[3/5] [500/679] mean_loss : 0.337
+[3/5] [600/679] mean_loss : 0.335
+0.9571788413098237
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.056     0.105        36
+   I-agenda      0.026     0.204     0.046        54
+     B-date      0.796     0.813     0.805       911
+     I-date      0.494     0.898     0.638       549
+ B-distance      0.632     0.624     0.628       487
+ I-distance      0.558     0.347     0.428       167
+    B-event      0.784     0.787     0.786       517
+    I-event      0.797     0.866     0.830       367
+ B-location      0.879     0.916     0.897       572
+ I-location      0.873     0.882     0.877       280
+    B-party      0.914     0.797     0.851       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.752     0.699     0.724       534
+ I-poi_type      0.689     0.728     0.708       301
+     B-room      1.000     0.257     0.409        35
+     I-room      1.000     0.545     0.706        33
+     B-time      0.611     0.414     0.493       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.723     0.430     0.540       237
+I-traffic_info      0.764     0.691     0.726       272
+B-weather_attribute      0.970     0.888     0.927       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.757     0.750     0.741      6416
+
+精度:0.92469622
+召回:0.92702109
+f1-score:0.92400864
+[4/5] [0/679] mean_loss : 0.177
+[4/5] [100/679] mean_loss : 0.319
+[4/5] [200/679] mean_loss : 0.337
+[4/5] [300/679] mean_loss : 0.337
+[4/5] [400/679] mean_loss : 0.342
+[4/5] [500/679] mean_loss : 0.329
+[4/5] [600/679] mean_loss : 0.329
+0.9567208610029768
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.028     0.054        36
+   I-agenda      0.031     0.241     0.054        54
+     B-date      0.800     0.811     0.805       911
+     I-date      0.508     0.898     0.649       549
+ B-distance      0.643     0.608     0.625       487
+ I-distance      0.675     0.323     0.437       167
+    B-event      0.789     0.789     0.789       517
+    I-event      0.794     0.850     0.821       367
+ B-location      0.876     0.916     0.896       572
+ I-location      0.864     0.882     0.873       280
+    B-party      0.915     0.802     0.855       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.741     0.693     0.716       534
+ I-poi_type      0.698     0.738     0.717       301
+     B-room      1.000     0.257     0.409        35
+     I-room      1.000     0.545     0.706        33
+     B-time      0.636     0.414     0.501       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.745     0.481     0.585       237
+I-traffic_info      0.767     0.702     0.733       272
+B-weather_attribute      0.970     0.888     0.927       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.764     0.750     0.743      6416
+
+精度:0.92513992
+召回:0.92759188
+f1-score:0.92438897
+Model saved!
+
+[0/5] [0/679] mean_loss : 4.568
+[0/5] [100/679] mean_loss : 1.936
+[0/5] [200/679] mean_loss : 0.755
+[0/5] [300/679] mean_loss : 0.549
+[0/5] [400/679] mean_loss : 0.477
+[0/5] [500/679] mean_loss : 0.423
+[0/5] [600/679] mean_loss : 0.402
+0.9562628806961301
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+   B-agenda      0.000     0.000     0.000        36
+   I-agenda      0.009     0.463     0.017        54
+     B-date      0.700     0.804     0.748       911
+     I-date      0.178     0.882     0.296       549
+ B-distance      0.635     0.702     0.667       487
+ I-distance      0.179     0.257     0.211       167
+    B-event      0.784     0.774     0.779       517
+    I-event      0.668     0.883     0.761       367
+ B-location      0.271     0.902     0.417       572
+ I-location      0.162     0.925     0.275       280
+    B-party      0.932     0.882     0.907       187
+    I-party      0.778     0.412     0.538        17
+ B-poi_type      0.780     0.743     0.761       534
+ I-poi_type      0.646     0.837     0.729       301
+     B-room      0.600     0.257     0.360        35
+     I-room      0.857     0.909     0.882        33
+     B-time      0.603     0.332     0.428       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.705     0.392     0.504       237
+I-traffic_info      0.217     0.684     0.329       272
+B-weather_attribute      0.044     0.826     0.084       546
+I-weather_attribute      0.311     0.812     0.450        80
+
+avg / total      0.496     0.756     0.535      6416
+
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+精度:0.92349863
+召回:0.92666423
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+f1-score:0.92366467
+[1/5] [0/679] mean_loss : 0.315
+[1/5] [100/679] mean_loss : 0.348
+[1/5] [200/679] mean_loss : 0.340
+[1/5] [300/679] mean_loss : 0.347
+[1/5] [400/679] mean_loss : 0.350
+[1/5] [500/679] mean_loss : 0.356
+[1/5] [600/679] mean_loss : 0.339
+0.9553469200824365
+             precision    recall  f1-score   support
+
+   B-agenda      0.000     0.000     0.000        36
+   I-agenda      0.011     0.426     0.022        54
+     B-date      0.652     0.811     0.723       911
+     I-date      0.257     0.883     0.399       549
+ B-distance      0.624     0.688     0.654       487
+ I-distance      0.033     0.257     0.059       167
+    B-event      0.816     0.822     0.819       517
+    I-event      0.752     0.866     0.805       367
+ B-location      0.605     0.902     0.724       572
+ I-location      0.197     0.925     0.325       280
+    B-party      0.932     0.877     0.904       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.782     0.700     0.739       534
+ I-poi_type      0.719     0.757     0.738       301
+     B-room      0.700     0.400     0.509        35
+     I-room      0.933     0.848     0.889        33
+     B-time      0.585     0.532     0.557       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.700     0.384     0.496       237
+I-traffic_info      0.445     0.699     0.544       272
+B-weather_attribute      0.107     0.857     0.191       546
+I-weather_attribute      0.234     0.863     0.368        80
+
+avg / total      0.547     0.763     0.591      6416
+
+精度:0.92590674
+召回:0.92898507
+f1-score:0.92655264
+[2/5] [0/679] mean_loss : 0.499
+[2/5] [100/679] mean_loss : 0.311
+[2/5] [200/679] mean_loss : 0.335
+[2/5] [300/679] mean_loss : 0.338
+[2/5] [400/679] mean_loss : 0.340
+[2/5] [500/679] mean_loss : 0.325
+[2/5] [600/679] mean_loss : 0.331
+0.9523700480879322
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.083     0.154        36
+   I-agenda      0.010     0.426     0.020        54
+     B-date      0.657     0.807     0.724       911
+     I-date      0.279     0.898     0.425       549
+ B-distance      0.638     0.688     0.662       487
+ I-distance      0.033     0.257     0.058       167
+    B-event      0.810     0.826     0.818       517
+    I-event      0.740     0.866     0.798       367
+ B-location      0.794     0.904     0.845       572
+ I-location      0.200     0.925     0.329       280
+    B-party      0.932     0.882     0.907       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.776     0.682     0.726       534
+ I-poi_type      0.704     0.757     0.730       301
+     B-room      0.600     0.257     0.360        35
+     I-room      0.848     0.848     0.848        33
+     B-time      0.521     0.518     0.519       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.698     0.380     0.492       237
+I-traffic_info      0.349     0.665     0.458       272
+B-weather_attribute      0.109     0.852     0.193       546
+I-weather_attribute      0.236     0.863     0.371        80
+
+avg / total      0.564     0.760     0.599      6416
+
+精度:0.92637372
+召回:0.92883267
+f1-score:0.92617816
+[3/5] [0/679] mean_loss : 0.336
+[3/5] [100/679] mean_loss : 0.339
+[3/5] [200/679] mean_loss : 0.335
+[3/5] [300/679] mean_loss : 0.309
+[3/5] [400/679] mean_loss : 0.332
+[3/5] [500/679] mean_loss : 0.320
+[3/5] [600/679] mean_loss : 0.328
+0.953972979161896
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.056     0.105        36
+   I-agenda      0.010     0.426     0.020        54
+     B-date      0.646     0.804     0.716       911
+     I-date      0.273     0.885     0.418       549
+ B-distance      0.642     0.688     0.664       487
+ I-distance      0.034     0.257     0.060       167
+    B-event      0.806     0.826     0.816       517
+    I-event      0.745     0.866     0.801       367
+ B-location      0.799     0.916     0.853       572
+ I-location      0.201     0.907     0.329       280
+    B-party      0.930     0.856     0.891       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.774     0.674     0.721       534
+ I-poi_type      0.715     0.757     0.735       301
+     B-room      0.600     0.257     0.360        35
+     I-room      0.875     0.848     0.862        33
+     B-time      0.539     0.500     0.519       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.672     0.380     0.485       237
+I-traffic_info      0.408     0.625     0.493       272
+B-weather_attribute      0.128     0.852     0.223       546
+I-weather_attribute      0.207     0.863     0.333        80
+
+avg / total      0.567     0.755     0.600      6416
+
+精度:0.92559206
+召回:0.92840597
+f1-score:0.92547269
+[4/5] [0/679] mean_loss : 0.216
+[4/5] [100/679] mean_loss : 0.315
+[4/5] [200/679] mean_loss : 0.319
+[4/5] [300/679] mean_loss : 0.324
+[4/5] [400/679] mean_loss : 0.331
+[4/5] [500/679] mean_loss : 0.330
+[4/5] [600/679] mean_loss : 0.328
+0.953972979161896
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.028     0.054        36
+   I-agenda      0.009     0.426     0.018        54
+     B-date      0.662     0.809     0.728       911
+     I-date      0.280     0.893     0.426       549
+ B-distance      0.643     0.688     0.665       487
+ I-distance      0.034     0.257     0.059       167
+    B-event      0.809     0.828     0.818       517
+    I-event      0.741     0.866     0.799       367
+ B-location      0.834     0.916     0.873       572
+ I-location      0.210     0.907     0.341       280
+    B-party      0.927     0.877     0.901       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.774     0.674     0.721       534
+ I-poi_type      0.710     0.757     0.733       301
+     B-room      0.600     0.257     0.360        35
+     I-room      0.848     0.848     0.848        33
+     B-time      0.526     0.514     0.520       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.674     0.384     0.489       237
+I-traffic_info      0.315     0.629     0.420       272
+B-weather_attribute      0.164     0.853     0.275       546
+I-weather_attribute      0.208     0.863     0.335        80
+
+avg / total      0.571     0.757     0.606      6416
+
+精度:0.92596378
+召回:0.92863240
+f1-score:0.92576471
+Model saved!
+
+
+*****************************no c********************************
+[0/5] [0/679] mean_loss : 4.579
+[0/5] [100/679] mean_loss : 1.903
+[0/5] [200/679] mean_loss : 0.756
+[0/5] [300/679] mean_loss : 0.549
+[0/5] [400/679] mean_loss : 0.475
+[0/5] [500/679] mean_loss : 0.434
+[0/5] [600/679] mean_loss : 0.393
+0.9544309594687428
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+   B-agenda      0.000     0.000     0.000        36
+   I-agenda      1.000     0.167     0.286        54
+     B-date      0.662     0.833     0.738       911
+     I-date      0.069     0.905     0.128       549
+ B-distance      0.602     0.665     0.632       487
+ I-distance      0.533     0.096     0.162       167
+    B-event      0.805     0.820     0.812       517
+    I-event      0.796     0.831     0.813       367
+ B-location      0.894     0.934     0.914       572
+ I-location      0.950     0.882     0.915       280
+    B-party      0.943     0.882     0.912       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.771     0.727     0.748       534
+ I-poi_type      0.678     0.797     0.733       301
+     B-room      1.000     0.400     0.571        35
+     I-room      1.000     1.000     1.000        33
+     B-time      0.529     0.500     0.514       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.800     0.405     0.538       237
+I-traffic_info      0.773     0.640     0.700       272
+B-weather_attribute      0.974     0.901     0.936       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.711     0.764     0.694      6416
+
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+精度:0.92545886
+召回:0.92828625
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+f1-score:0.92469639
+[1/5] [0/679] mean_loss : 0.429
+[1/5] [100/679] mean_loss : 0.335
+[1/5] [200/679] mean_loss : 0.337
+[1/5] [300/679] mean_loss : 0.352
+[1/5] [400/679] mean_loss : 0.340
+[1/5] [500/679] mean_loss : 0.345
+[1/5] [600/679] mean_loss : 0.338
+0.9571788413098237
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.250     0.400        36
+   I-agenda      1.000     0.481     0.650        54
+     B-date      0.665     0.846     0.745       911
+     I-date      0.215     0.863     0.344       549
+ B-distance      0.571     0.595     0.583       487
+ I-distance      0.468     0.216     0.295       167
+    B-event      0.797     0.814     0.806       517
+    I-event      0.799     0.847     0.823       367
+ B-location      0.886     0.923     0.904       572
+ I-location      0.925     0.925     0.925       280
+    B-party      0.948     0.882     0.914       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.789     0.715     0.750       534
+ I-poi_type      0.670     0.734     0.700       301
+     B-room      0.700     0.400     0.509        35
+     I-room      1.000     1.000     1.000        33
+     B-time      0.598     0.500     0.545       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.713     0.430     0.537       237
+I-traffic_info      0.778     0.669     0.719       272
+B-weather_attribute      0.969     0.868     0.916       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.721     0.761     0.717      6416
+
+精度:0.92585706
+召回:0.92850613
+f1-score:0.92600446
+[2/5] [0/679] mean_loss : 0.320
+[2/5] [100/679] mean_loss : 0.324
+[2/5] [200/679] mean_loss : 0.326
+[2/5] [300/679] mean_loss : 0.332
+[2/5] [400/679] mean_loss : 0.345
+[2/5] [500/679] mean_loss : 0.307
+[2/5] [600/679] mean_loss : 0.323
+0.9578658117700939
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.278     0.435        36
+   I-agenda      1.000     0.481     0.650        54
+     B-date      0.667     0.847     0.747       911
+     I-date      0.218     0.883     0.350       549
+ B-distance      0.569     0.608     0.588       487
+ I-distance      0.418     0.275     0.332       167
+    B-event      0.800     0.812     0.806       517
+    I-event      0.795     0.837     0.815       367
+ B-location      0.881     0.923     0.902       572
+ I-location      0.922     0.925     0.923       280
+    B-party      0.948     0.882     0.914       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.791     0.710     0.748       534
+ I-poi_type      0.664     0.741     0.700       301
+     B-room      0.700     0.400     0.509        35
+     I-room      1.000     1.000     1.000        33
+     B-time      0.636     0.500     0.560       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.708     0.430     0.535       237
+I-traffic_info      0.755     0.691     0.722       272
+B-weather_attribute      0.970     0.885     0.925       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.720     0.767     0.720      6416
+
+精度:0.92704260
+召回:0.92924212
+f1-score:0.92714241
+[3/5] [0/679] mean_loss : 0.352
+[3/5] [100/679] mean_loss : 0.316
+[3/5] [200/679] mean_loss : 0.316
+[3/5] [300/679] mean_loss : 0.333
+[3/5] [400/679] mean_loss : 0.320
+[3/5] [500/679] mean_loss : 0.327
+[3/5] [600/679] mean_loss : 0.325
+0.9571788413098237
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.361     0.531        36
+   I-agenda      1.000     0.481     0.650        54
+     B-date      0.656     0.851     0.741       911
+     I-date      0.212     0.887     0.342       549
+ B-distance      0.571     0.616     0.593       487
+ I-distance      0.382     0.281     0.324       167
+    B-event      0.800     0.812     0.806       517
+    I-event      0.795     0.837     0.815       367
+ B-location      0.883     0.923     0.903       572
+ I-location      0.932     0.929     0.930       280
+    B-party      0.948     0.882     0.914       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.788     0.702     0.743       534
+ I-poi_type      0.647     0.754     0.696       301
+     B-room      0.700     0.400     0.509        35
+     I-room      1.000     1.000     1.000        33
+     B-time      0.636     0.500     0.560       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.715     0.414     0.524       237
+I-traffic_info      0.734     0.691     0.712       272
+B-weather_attribute      0.972     0.897     0.933       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.716     0.769     0.719      6416
+
+精度:0.92766722
+召回:0.92964702
+f1-score:0.92772307
+[4/5] [0/679] mean_loss : 0.234
+[4/5] [100/679] mean_loss : 0.323
+[4/5] [200/679] mean_loss : 0.318
+[4/5] [300/679] mean_loss : 0.325
+[4/5] [400/679] mean_loss : 0.316
+[4/5] [500/679] mean_loss : 0.308
+[4/5] [600/679] mean_loss : 0.323
+0.9578658117700939
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.250     0.400        36
+   I-agenda      1.000     0.481     0.650        54
+     B-date      0.650     0.853     0.738       911
+     I-date      0.219     0.885     0.351       549
+ B-distance      0.571     0.616     0.593       487
+ I-distance      0.370     0.281     0.320       167
+    B-event      0.801     0.810     0.806       517
+    I-event      0.792     0.831     0.811       367
+ B-location      0.881     0.923     0.902       572
+ I-location      0.925     0.925     0.925       280
+    B-party      0.948     0.882     0.914       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.794     0.700     0.744       534
+ I-poi_type      0.643     0.761     0.697       301
+     B-room      0.700     0.400     0.509        35
+     I-room      1.000     1.000     1.000        33
+     B-time      0.636     0.500     0.560       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.723     0.418     0.529       237
+I-traffic_info      0.733     0.688     0.710       272
+B-weather_attribute      0.970     0.892     0.929       546
+I-weather_attribute      0.955     0.800     0.871        80
+
+avg / total      0.716     0.768     0.717      6416
+
+精度:0.92749520
+召回:0.92937268
+f1-score:0.92741297
+Model saved!
+
+Process finished with exit code 0
+
+
+
+[0/5] [0/679] mean_loss : 4.566
+[0/5] [100/679] mean_loss : 1.931
+[0/5] [200/679] mean_loss : 0.800
+[0/5] [300/679] mean_loss : 0.541
+[0/5] [400/679] mean_loss : 0.464
+[0/5] [500/679] mean_loss : 0.410
+[0/5] [600/679] mean_loss : 0.394
+0.9519120677810854
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+   B-agenda      0.000     0.000     0.000        36
+   I-agenda      0.793     0.426     0.554        54
+     B-date      0.455     0.844     0.592       911
+     I-date      0.052     0.809     0.097       549
+ B-distance      0.695     0.542     0.609       487
+ I-distance      0.598     0.293     0.394       167
+    B-event      0.750     0.776     0.762       517
+    I-event      0.754     0.866     0.806       367
+ B-location      0.846     0.881     0.863       572
+ I-location      0.728     0.968     0.831       280
+    B-party      0.916     0.813     0.861       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.767     0.723     0.744       534
+ I-poi_type      0.689     0.781     0.732       301
+     B-room      0.600     0.257     0.360        35
+     I-room      1.000     0.697     0.821        33
+     B-time      0.576     0.464     0.514       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.797     0.447     0.573       237
+I-traffic_info      0.723     0.662     0.691       272
+B-weather_attribute      0.954     0.883     0.917       546
+I-weather_attribute      0.939     0.575     0.713        80
+
+avg / total      0.661     0.744     0.658      6416
+
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+精度:0.92192936
+召回:0.92590561
+E:\python3.5\Anaconda3.5\lib\site-packages\sklearn\metrics\classification.py:1074: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+f1-score:0.92251428
+[1/5] [0/679] mean_loss : 0.452
+[1/5] [100/679] mean_loss : 0.336
+[1/5] [200/679] mean_loss : 0.331
+[1/5] [300/679] mean_loss : 0.347
+[1/5] [400/679] mean_loss : 0.337
+[1/5] [500/679] mean_loss : 0.320
+[1/5] [600/679] mean_loss : 0.322
+0.9523700480879322
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.111     0.200        36
+   I-agenda      0.289     0.444     0.350        54
+     B-date      0.544     0.813     0.652       911
+     I-date      0.038     0.851     0.073       549
+ B-distance      0.621     0.665     0.642       487
+ I-distance      0.741     0.257     0.382       167
+    B-event      0.737     0.785     0.760       517
+    I-event      0.733     0.858     0.790       367
+ B-location      0.844     0.916     0.878       572
+ I-location      0.770     0.968     0.858       280
+    B-party      0.935     0.850     0.891       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.812     0.721     0.764       534
+ I-poi_type      0.701     0.771     0.734       301
+     B-room      0.500     0.257     0.340        35
+     I-room      1.000     0.697     0.821        33
+     B-time      0.505     0.505     0.505       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.776     0.527     0.628       237
+I-traffic_info      0.868     0.629     0.729       272
+B-weather_attribute      0.960     0.846     0.900       546
+I-weather_attribute      0.814     0.713     0.760        80
+
+avg / total      0.677     0.758     0.673      6416
+
+精度:0.92572563
+召回:0.92666199
+f1-score:0.92432379
+[2/5] [0/679] mean_loss : 0.253
+[2/5] [100/679] mean_loss : 0.324
+[2/5] [200/679] mean_loss : 0.321
+[2/5] [300/679] mean_loss : 0.301
+[2/5] [400/679] mean_loss : 0.310
+[2/5] [500/679] mean_loss : 0.332
+[2/5] [600/679] mean_loss : 0.311
+0.9530570185482025
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.139     0.244        36
+   I-agenda      0.321     0.500     0.391        54
+     B-date      0.503     0.817     0.623       911
+     I-date      0.043     0.845     0.082       549
+ B-distance      0.613     0.696     0.652       487
+ I-distance      0.636     0.293     0.402       167
+    B-event      0.751     0.807     0.778       517
+    I-event      0.768     0.858     0.811       367
+ B-location      0.852     0.916     0.883       572
+ I-location      0.758     0.950     0.843       280
+    B-party      0.935     0.840     0.885       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.783     0.725     0.753       534
+ I-poi_type      0.704     0.784     0.742       301
+     B-room      0.500     0.257     0.340        35
+     I-room      1.000     0.697     0.821        33
+     B-time      0.507     0.505     0.506       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.790     0.477     0.595       237
+I-traffic_info      0.820     0.669     0.737       272
+B-weather_attribute      0.961     0.861     0.908       546
+I-weather_attribute      0.814     0.713     0.760        80
+
+avg / total      0.668     0.764     0.673      6416
+
+精度:0.92611730
+召回:0.92707539
+f1-score:0.92510072
+[3/5] [0/679] mean_loss : 0.316
+[3/5] [100/679] mean_loss : 0.310
+[3/5] [200/679] mean_loss : 0.314
+[3/5] [300/679] mean_loss : 0.320
+[3/5] [400/679] mean_loss : 0.318
+[3/5] [500/679] mean_loss : 0.311
+[3/5] [600/679] mean_loss : 0.316
+0.9532860087016258
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.139     0.244        36
+   I-agenda      0.224     0.481     0.306        54
+     B-date      0.553     0.817     0.659       911
+     I-date      0.044     0.836     0.083       549
+ B-distance      0.608     0.678     0.641       487
+ I-distance      0.629     0.263     0.371       167
+    B-event      0.750     0.807     0.777       517
+    I-event      0.772     0.858     0.813       367
+ B-location      0.852     0.916     0.883       572
+ I-location      0.758     0.950     0.843       280
+    B-party      0.935     0.850     0.891       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.784     0.727     0.754       534
+ I-poi_type      0.704     0.784     0.742       301
+     B-room      0.500     0.257     0.340        35
+     I-room      1.000     0.697     0.821        33
+     B-time      0.519     0.509     0.514       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.753     0.477     0.584       237
+I-traffic_info      0.819     0.665     0.734       272
+B-weather_attribute      0.961     0.861     0.908       546
+I-weather_attribute      0.814     0.713     0.760        80
+
+avg / total      0.673     0.762     0.676      6416
+
+精度:0.92537659
+召回:0.92658760
+f1-score:0.92449004
+[4/5] [0/679] mean_loss : 0.303
+[4/5] [100/679] mean_loss : 0.317
+[4/5] [200/679] mean_loss : 0.302
+[4/5] [300/679] mean_loss : 0.312
+[4/5] [400/679] mean_loss : 0.328
+[4/5] [500/679] mean_loss : 0.309
+[4/5] [600/679] mean_loss : 0.305
+0.9514540874742387
+             precision    recall  f1-score   support
+
+   B-agenda      1.000     0.167     0.286        36
+   I-agenda      0.255     0.481     0.333        54
+     B-date      0.548     0.818     0.656       911
+     I-date      0.046     0.836     0.087       549
+ B-distance      0.610     0.682     0.644       487
+ I-distance      0.603     0.263     0.367       167
+    B-event      0.748     0.799     0.773       517
+    I-event      0.772     0.858     0.813       367
+ B-location      0.851     0.916     0.882       572
+ I-location      0.766     0.946     0.847       280
+    B-party      0.934     0.834     0.881       187
+    I-party      0.667     0.471     0.552        17
+ B-poi_type      0.781     0.723     0.751       534
+ I-poi_type      0.702     0.774     0.736       301
+     B-room      0.500     0.257     0.340        35
+     I-room      1.000     0.697     0.821        33
+     B-time      0.507     0.509     0.508       220
+     I-time      0.000     0.000     0.000        14
+B-traffic_info      0.812     0.456     0.584       237
+I-traffic_info      0.764     0.713     0.738       272
+B-weather_attribute      0.961     0.861     0.908       546
+I-weather_attribute      0.814     0.713     0.760        80
+
+avg / total      0.672     0.761     0.675      6416
+
+精度:0.92540324
+召回:0.92654007
+f1-score:0.92447556
+Model saved!
+
+Process finished with exit code 0

@@ -9,7 +9,6 @@ from sklearn_crfsuite import metrics
 import argparse
 from data import T
 
-
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
