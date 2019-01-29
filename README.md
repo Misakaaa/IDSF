@@ -9,7 +9,7 @@
 
 ```
 pytorch==0.4
-nltk==3.6.0
+nltk==3.5.1
 sklearn_crfsuite
 ```
 
