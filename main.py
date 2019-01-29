@@ -6,7 +6,7 @@ import argparse
 from data import T
 import os
 
-device = torch.device(0)
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
 def evaluation(model, dev_data):
